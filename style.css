@@ -30,6 +30,7 @@ header {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     color: #fff;
+    margin-top: 5%;
 }
 
 .search::placeholder {
@@ -39,6 +40,15 @@ header {
 .search:focus {
     outline: none;
     background-color: var(--primary-color);
+}
+
+header .top-title {
+    justify-content: left;
+    color: #fff;
+    width: 100%;
+    max-height: 20%;
+    font-size: 15px;
+    
 }
 
 main {
